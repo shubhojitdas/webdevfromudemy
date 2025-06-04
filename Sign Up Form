@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up Page</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="card">
+        <h2>Sign Up</h2>
+        <form>
+            <label for="email">
+                <input type="email" placeholder="enter your email" id="email">
+            </label>
+            <div id="name">
+                <label for="first-name">
+                    <input type="text" placeholder="enter your first-name" id="first-name">
+                </label>
+                <label for="last-name">
+                    <input type="text" placeholder="enter your last-name" id="last-name">
+                </label>
+            </div>
+            <label for="password">
+                <input type="password" placeholder="enter your password" id="password">
+            </label>
+            <div>
+                <button type="submit">Sign Up</button>
+            </div>
+        </form>
+    </div>
+</body>
+
+</html>
