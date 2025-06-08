@@ -1,0 +1,75 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body,
+html {
+    font-family: "Noto Sans", sans-serif;
+    height: 100%;
+}
+
+.container {
+    background: linear-gradient(135deg, #8a2be2, #4169e1);
+    /* background-image: url(https://rukminim2.flixcart.com/flap/50/50/image/7c34b13b47223aef.jpg); */
+    object-fit: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.content {
+    text-align: center;
+    background: #ebf2ff;
+    backdrop-filter: blur(10px);
+    border: none;
+    border-radius: 10px;
+    padding: 2rem;
+    max-width: 400px;
+    padding: 45px 30px;
+}
+
+.logo {
+    width: 200px;
+    height: 80px;
+    object-fit: cover;
+}
+
+h1 {
+    color: #333;
+    margin-bottom: 15px;
+}
+
+p {
+    columns: #666;
+    margin-bottom: 15px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+input[type="email"] {
+    padding: 10px;
+    border: solid #00000030 1px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+button {
+    padding: 10px;
+    background-color: #8a2be2;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+}
+
+button:hover {
+    background-color: #ff7a0d;
+}
